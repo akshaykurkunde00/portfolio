@@ -1,0 +1,106 @@
+.container-about {
+  height: 100vh;
+  display: block;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container-image {
+  display: flex;
+  margin-top: 30px;
+}
+.container-about h1 {
+  margin-left: 40px;
+}
+
+.section1 {
+  width: 50%;
+  transition: box-shadow 15s ease, transform 0.5s ease;
+  overflow: hidden;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 190px;
+
+  border-radius: 8px;
+}
+.section1 img {
+  width: 300px;
+  height: fit-content;
+  margin-left: 20px;
+
+  border: white solid;
+  border-radius: 20px;
+}
+.section2 {
+  font-size: medium;
+  width: 45%;
+  margin: 10px;
+}
+
+.skills {
+  display: flex;
+
+  font-size: 70px;
+  gap: 10px;
+  justify-content: center;
+}
+.section1:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+
+.A:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.B:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.C:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.D:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.E:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+
+.A {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.B {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.C {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.D {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.E {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}

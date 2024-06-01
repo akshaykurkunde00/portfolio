@@ -1,0 +1,157 @@
+/* Home.css */
+.container-home {
+  display: flex;
+}
+.profile-home {
+  margin: 10px 10px 100px 300px;
+
+  animation: fadeInUp 2s ease-in-out;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-cont {
+  overflow: hidden;
+  margin-right: 80px;
+  margin-left: 150px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 10px solid;
+  box-shadow: rgb(126, 123, 123) 0px 14px 75px,
+    rgba(245, 242, 242, 0.12) 0px -12px 30px,
+    rgba(243, 240, 240, 0.12) 0px 4px 6px,
+    rgba(245, 241, 241, 0.17) 0px 12px 13px, rgb(245, 243, 243) 0px -3px 5px;
+}
+
+.image-cont img {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.des-container h1 {
+  font-size: 50px;
+}
+
+.des-container h4 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.container-button {
+  margin-left: 10%;
+}
+
+.one {
+  margin: 10px;
+  padding: 20px;
+}
+
+.one a {
+  text-align: center;
+}
+
+.two {
+  margin: 10px;
+  padding: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.social-icons a:hover {
+  color: powderblue;
+}
+
+.letter {
+  font-size: 200px;
+  font-weight: bold;
+  position: relative;
+  color: transparent;
+}
+
+.letter::before {
+  content: "A";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  z-index: -1;
+}
+
+/* @keyframes example {
+ 
+  from {color: #282c34;}
+  to {color: white;}
+ 
+
+} */
+
+.puzzle {
+  margin-left: 200px;
+  color: white;
+  font-size: 130px;
+  text-align: right;
+  width: 10%;
+  overflow: visible;
+  margin-top: 30px;
+  border: 10px;
+  border-radius: 10px;
+}
+.one1:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.two2:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+.four:hover {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Glowing effect */
+  transform: scale(1.1);
+}
+
+.one1 {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation-name: example;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.two2 {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.four {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
