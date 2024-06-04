@@ -12,9 +12,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router >
+
+        
+        <Router  basename={process.env.PUBLIC_URL}
+        >
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
