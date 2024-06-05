@@ -6,7 +6,7 @@ import About from "./componets/About";
 import Projects from "./componets/Projects";
 import Contact from "./componets/Contact";
 import Home from "./componets/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route ,Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Router  basename={process.env.PUBLIC_URL}
         >
           <Routes>
+          <Route path="/"  element={<Navigate to="/home" />}   />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
