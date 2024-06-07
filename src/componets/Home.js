@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import { motion } from "framer-motion";
 import { useSpring, animated } from "react-spring";
-import { FaStar } from "react-icons/fa"; // Example icon from react-icons
+import { FaStar } from "react-icons/fa";
 import { GiNightSleep } from "react-icons/gi";
 import { IoFastFood } from "react-icons/io5";
 
@@ -26,7 +26,7 @@ import { IoExtensionPuzzleSharp } from "react-icons/io5";
 function Home() {
   return (
     <>
-      <Header />
+     
       <div className="container-home">
         <div className="profile-home">
           <div className="image-cont">

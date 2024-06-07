@@ -16,6 +16,8 @@ function App() {
         
         <Router  basename={process.env.PUBLIC_URL}
         >
+
+          <Header />
           <Routes>
           <Route path="/"  element={<Navigate to="/home" />}   />
             <Route path="/home" element={<Home />} />

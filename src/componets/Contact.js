@@ -1,4 +1,4 @@
-// src/Contact.js
+
 import React, { useState, useEffect, useRef } from "react";
 import Header from "./Header";
 import "./css/Contact.css";
@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <>
-      <Header />
+     
       <div className="container-contact">
         <h1>Get in Touch with me</h1>
 

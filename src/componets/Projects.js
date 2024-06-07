@@ -1,4 +1,4 @@
-// src/Projects.js
+
 import React from "react";
 import Header from "./Header";
 import logo1 from "../assets/tracker.png";
@@ -8,7 +8,7 @@ import "./css/Projects.css";
 const Projects = () => {
   return (
     <>
-      <Header />
+      
       <div className="project-container">
         <h1> My Projects</h1>
         <div className="code">

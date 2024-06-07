@@ -1,4 +1,4 @@
-// src/Header.js
+
 import React from "react";
 import pic2 from "../assets/pass.png";
 import "./css/About.css";
@@ -20,7 +20,7 @@ import { IoLogoCss3 } from "react-icons/io5";
 const About = () => {
   return (
     <>
-      <Header />
+  
       <div className="container-about">
         <div>
           <h1>About me</h1>
